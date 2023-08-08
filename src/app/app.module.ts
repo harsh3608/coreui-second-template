@@ -26,12 +26,16 @@ import {
   TabsModule,
   UtilitiesModule
 } from '@coreui/angular';
+import { HomeComponent } from './home/home.component';
+import { ModalOneComponent } from './modal-one/modal-one.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    NavBarComponent,
+    HomeComponent,
+    ModalOneComponent
   ],
   imports: [
     BrowserModule,
